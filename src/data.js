@@ -4,7 +4,7 @@ export const shopdata = [
         id: 1,
         name: "Just a Little",
         img: "https://scontent.fnak2-1.fna.fbcdn.net/v/t1.0-9/26047121_1628986067140735_9116690955254680745_n.jpg?_nc_cat=101&_nc_sid=85a577&_nc_eui2=AeGXkjVClXfinX1vJpJ2GauugYW6UIIDARKBhbpQggMBElDkvGYU0nlOg8vbmrAikUk&_nc_ohc=bekIc2l6xMgAX8Ra0qF&_nc_ht=scontent.fnak2-1.fna&oh=3282899fdde0d32362b209f0c8e33f6e&oe=5EDC6CAF",
-        detail: "รายระเอียด",
+        detail: "รายละเอียด",
         adress: "ที่อยู่"
         },
     {

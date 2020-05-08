@@ -5,12 +5,19 @@ export default class Catalog extends Component {
         const { id, name, img, detail, adress } = this.props.shop;
         console.log(this.props.shop)
         return (
-            <div>
+            <div className="shop">
+                          <div className="img-contrainer">
                 {/* <h2>{id}</h2> */}
-                <img src={img} width="800px" height="800px"/>
-                <h3>{name}</h3>
-                <h4>{detail}</h4>
-                <h5>{adress}</h5>
+                <img src={img}/> <br></br>
+                <span className="close-btn">
+                <i class="far fa-window-close"></i>
+                </span>
+            <div className="shop-info">
+            <h3>{name}</h3>
+                <p>{detail}</p>
+                <p>{adress}</p>
+            </div>
+            </div>
             </div>
         );
     }

@@ -8,7 +8,7 @@ export default class ShopList extends Component {
     render() {
         const { shops } = this.state;
         return (
-            <div>
+            <div className="ShopList">
                 {shops.map(shop =>
                     <Store key={shop.id} shop={shop} />
                 )}
