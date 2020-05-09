@@ -28,27 +28,3 @@ img {
 .img-contrainer:hover .close-btn {
     opacity: 1;
 }
-.nav-link-home {
-    position: absolute;
-    right: 930px;
-    bottom: 15px;
-    text-decoration: none;
-}
-.nav-link-order {
-    position: absolute;
-    right: 860px;
-    bottom: 15px;
-    text-decoration: none;
-}
-.nav-link-payment {
-    position: absolute;
-    right: 780px;
-    bottom: 15px;
-    text-decoration: none;
-}
-.nav-link-contact {
-    position: absolute;
-    right: 700px;
-    bottom: 15px;
-    text-decoration: none;
-}

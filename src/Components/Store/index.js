@@ -10,7 +10,7 @@ export default class Catalog extends Component {
                 {/* <h2>{id}</h2> */}
                 <img src={img}/> <br></br>
                 <span className="close-btn">
-                <i class="far fa-window-close"></i>
+                <i className="far fa-window-close"></i>
                 </span>
             <div className="shop-info">
             <h3>{name}</h3>
